@@ -1,0 +1,24 @@
+{
+  "name": "react-json-viewer-example",
+  "homepage": "https://nsisodiya.github.io/react-json-viewer",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.7.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-gist": "^1.2.1",
+    "react-helmet": "^6.1.0",
+    "react-json-viewer": "file:..",
+    "react-scripts": "^1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:9999"
+}

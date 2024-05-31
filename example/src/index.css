@@ -1,0 +1,29 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 16px; /* Increase border radius for the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align the content */
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.json-viewer-container {
+  display: flex;
+  justify-content: center; /* Center align the JSON viewer */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 16px; /* Increase border radius for the JSON viewer container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
+
+.json-viewer-container pre {
+  text-align: left; /* Align text to the left within the JSON viewer */
+}
